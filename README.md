@@ -28,8 +28,15 @@ air
 or
 
 ```
-go run main.go
+go build main.go
+./main
 ```
+
+## Usage
+
+1. Run the source code or build.
+2. Add `http://127.0.0.1` on port `:8888` on your system's proxy configuration for both HTTP and HTTPS Proxy.
+3. Make sure `127.0.0.1` is not listed in your machine's Ignored Hosts list.
 
 ## How It Works
 
